@@ -1,11 +1,11 @@
 {
-    "name": "Trainer Notebook",
-    "short_name": "Trainer Notebook",
+    "name": "Jita — Judo Club",
+    "short_name": "Jita",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Trainer Notebook — coach app for a judo club.",
+    "description": "Jita — Judo Club: app for judo coaches, clubs and federations.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
