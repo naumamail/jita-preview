@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>Jita</title>
 <!-- The public club page behind the flyer's QR code: jitajudo.com/c/<club>.
      It asks the server for the club's APPROVED page (groups and training
@@ -45,9 +46,9 @@
   var lang = (navigator.language || 'he').slice(0, 2);
   lang = ['he', 'ru', 'en'].indexOf(lang) >= 0 ? lang : 'he';
   var T = {
-    he: { groups: 'קבוצות ושעות אימון', branches: 'סניפים', map: 'במפה', director: 'מנהל המועדון', olympians: 'ספורטאים אולימפיים של המועדון', coaches: 'המאמנים', coach: 'מאמן', signup: 'להרשמה לאימון ניסיון', call: 'להתקשר', off: 'העמוד לא פעיל כרגע.', load: 'טוען…', made: 'עמוד המועדון באפליקציית Jita. הנתונים מתעדכנים מהמועדון.', days: ['', 'שני', 'שלישי', 'רביעי', 'חמישי', 'שישי', 'שבת', 'ראשון'] },
-    ru: { groups: 'Группы и время тренировок', branches: 'Филиалы', map: 'на карте', director: 'Директор клуба', olympians: 'Олимпийцы клуба', coaches: 'Тренеры', coach: 'Тренер', signup: 'Записаться на пробную тренировку', call: 'Позвонить', off: 'Страница сейчас не активна.', load: 'Загрузка…', made: 'Страница клуба в приложении Jita. Данные обновляет клуб.', days: ['', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'] },
-    en: { groups: 'Groups and training times', branches: 'Branches', map: 'on the map', director: 'Club director', olympians: 'The club’s Olympians', coaches: 'Coaches', coach: 'Coach', signup: 'Sign up for a trial training', call: 'Call', off: 'This page is not active right now.', load: 'Loading…', made: 'The club’s page in the Jita app. The club keeps the data up to date.', days: ['', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'] }
+    he: { groups: 'קבוצות ושעות אימון', branches: 'סניפים', map: 'במפה', director: 'מנהל המועדון', olympians: 'ספורטאים אולימפיים של המועדון', coaches: 'המאמנים', coach: 'מאמן', signup: 'להרשמה לאימון ניסיון', call: 'להתקשר', off: 'הדף עדיין לא פורסם.', load: 'טוען…', made: 'עמוד המועדון באפליקציית Jita. הנתונים מתעדכנים מהמועדון.', days: ['', 'שני', 'שלישי', 'רביעי', 'חמישי', 'שישי', 'שבת', 'ראשון'] },
+    ru: { groups: 'Группы и время тренировок', branches: 'Филиалы', map: 'на карте', director: 'Директор клуба', olympians: 'Олимпийцы клуба', coaches: 'Тренеры', coach: 'Тренер', signup: 'Записаться на пробную тренировку', call: 'Позвонить', off: 'Страница ещё не опубликована.', load: 'Загрузка…', made: 'Страница клуба в приложении Jita. Данные обновляет клуб.', days: ['', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'] },
+    en: { groups: 'Groups and training times', branches: 'Branches', map: 'on the map', director: 'Club director', olympians: 'The club’s Olympians', coaches: 'Coaches', coach: 'Coach', signup: 'Sign up for a trial training', call: 'Call', off: 'This page has not been published yet.', load: 'Loading…', made: 'The club’s page in the Jita app. The club keeps the data up to date.', days: ['', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'] }
   }[lang];
   document.documentElement.lang = lang;
   document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
