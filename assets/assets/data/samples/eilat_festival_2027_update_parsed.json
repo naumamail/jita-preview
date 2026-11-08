@@ -1,4 +1,5 @@
 {
+ "_note": "FICTIONAL test data (docs/samples/eilat-2027-update-TEST.txt): price, deadline and years are invented",
  "kind": "camp",
  "level": "national",
  "title": "פסטיבל הג'ודו באילת 2027",
@@ -8,7 +9,7 @@
  "place": "קניון ICE MALL, אילת",
  "address": "",
  "map_url": "",
- "description": "דמי השתתפות כוללים לינה וארוחות.",
+ "description": "טקסט בדיקה בלבד: המחיר, מועד ההרשמה והשנתונים בהודעה הזאת בדויים ואינם של האיגוד.",
  "bring": "",
  "birth_years": [
   2010,
@@ -36,7 +37,7 @@
    "amount": 350,
    "url": "",
    "deadline": "",
-   "note": "לספורטאי, כולל לינה וארוחות"
+   "note": "מחיר בדוי לבדיקה, לא מחיר אמיתי"
   }
  ],
  "requires_federation": false,
@@ -96,6 +97,8 @@
   }
  ],
  "options": [],
- "needs_review": [],
+ "needs_review": [
+  "payments: טקסט בדיקה, המחיר והמועד בדויים. לא לשמור כאירוע אמיתי."
+ ],
  "program": []
 }
