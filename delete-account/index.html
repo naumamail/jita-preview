@@ -17,7 +17,7 @@
 </style>
 </head>
 <body>
-<nav><b>Jita 自他</b><a href="#he">עברית</a><a href="#ru">Русский</a><a href="#en">English</a></nav>
+<nav><b>Jita 自他</b><a href="#he">עברית</a><a href="#ru">Русский</a><a href="#en">English</a><a href="#de">Deutsch</a></nav>
 
   <section id="he" lang="he" dir="rtl">
     <h1>מחיקת חשבון · Jita</h1>
@@ -51,10 +51,21 @@
     <h2>No access to the app?</h2>
     <div><p>Write to the club admin or to the developer (<a href="mailto:naumamail@gmail.com">naumamail@gmail.com</a>) from the address you signed in with. We delete within 30 days.</p></div>
   </section>
+
+  <section id="de" lang="de" dir="ltr">
+    <h1>Konto löschen · Jita</h1>
+    <p class="muted">Stand: 12. November 2026</p>
+    <h2>In der App</h2>
+    <div><ol><li>Öffne Jita und melde dich an.</li><li>„Mehr“ › „Datenschutz und Daten“ › „Konto und Daten löschen“.</li><li>Bestätige mit „Endgültig löschen“.</li></ol></div>
+    <h2>Was gelöscht wird</h2>
+    <div><ul><li>Eltern / Sportler: das Konto und die Daten der Kinder (bzw. das eigene Sportlerprofil): Anwesenheit, Notizen, medizinische Unterlagen und ihre Dateien, Gesundheitserklärungen, Ergebnisse, Hausaufgaben-Markierungen, Gerätetoken für Benachrichtigungen.</li><li>Coach / Vereinsverwaltung: das Konto und die Rollen. Vereinsdaten (Notizen, Hausaufgaben, Dokumente) bleiben ohne deinen Namen beim Verein.</li></ul>Die Löschung erfolgt sofort, aus Sicherungskopien innerhalb von 30 Tagen.</div>
+    <h2>Kein Zugang zur App?</h2>
+    <div><p>Schreib an die Vereinsverwaltung oder an den Betreiber (<a href="mailto:naumamail@gmail.com">naumamail@gmail.com</a>), und zwar von der E-Mail-Adresse, mit der du dich angemeldet hast. Wir löschen innerhalb von 30 Tagen.</p></div>
+  </section>
 <script>
-// One language at a time: #he / #ru / #en from the app (or the browser language).
+// One language at a time: #he / #ru / #en / #de from the app (or the browser language).
 (function () {
-  var ls = ['he', 'ru', 'en'];
+  var ls = ['he', 'ru', 'en', 'de'];
   function show() {
     var h = location.hash.slice(1);
     if (ls.indexOf(h) < 0) { var n = (navigator.language || 'en').slice(0, 2); h = ls.indexOf(n) >= 0 ? n : 'en'; }
